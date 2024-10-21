@@ -33,9 +33,11 @@ header:
     blox: "navbar"
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: false
     logo:
-      text: "Your Name"
+      text: "Heatherbone"
+    button:
+      url: "https://x.com/"  
 
 # Site footer
 footer:
