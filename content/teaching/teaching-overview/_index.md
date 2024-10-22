@@ -19,7 +19,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: DSC_0015.jpg
+          filename: hero-overview.JPG
           filters:
             brightness: 0.5
           parallax: false
