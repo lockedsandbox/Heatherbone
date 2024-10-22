@@ -6,7 +6,10 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "2rem"
+
+css:
+  - "css/custom.css"
 
 sections:
   - block: resume-biography-3
@@ -16,92 +19,95 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+          text: Download CV
+          url: /CV_Heather_Bone.pdf
+      button:
+          text: Download JMP
+          url: /CV_Heather_Bone.pdf
     design:
       css_class: dark
+      #css_class: author-info
+      #css_class: profile
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: 17.svg
           filters:
-            brightness: 1.0
+            brightness: 0.6
           size: cover
           position: center
-          parallax: false
+          parallax: true
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: Research Overview
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        <div style="text-align: center;"> My research focuses on the economics of crime, with a particular focus on illicit drug markets. I am particularly interested in how criminalization and enforcement effects the decisions of criminal actors and the resulting consequences for security and public health. 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        Doing so is challenging because of the industry's illicit nature: Criminal enterprises are not tracked in administrative data and often wish to keep their actions hidden, fearing prosecution.  In the spirit of forensic economics, my work leverages big data, machine learning, and geographic information systems to observe the actions of these organizations. </div>
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
+  #- block: collection
+   # id: papers
+    #content:
+     # title: Featured Publications
+      #filters:
+       # folders:
+        #  - publication
+        #featured_only: true
+    #design:
+     # view: article-grid
+      #columns: 2
+ # - block: collection
+    #content:
+      #title: ''
+      #text: "Papers"
+      #filters:
+        #folders:
+         # - publication
+        #exclude_featured: false
+    #design:
+      #view: citation
+  #- block: collection
+   # id: talks
+    #content:
+     # title: Recent & Upcoming Talks
+      #filters:
+       # folders:
+        #  - event
+    #design:
+     # view: article-grid
+      #columns: 1
+  #- block: collection
+   # id: news
+    #content:
+     # title: Recent News
+      #subtitle: ''
+      #text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      #page_type: post
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      #count: 5
       # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
+      #filters:
+       # author: ""
+        #category: ""
+       # t#ag: ""
+       # exclude_featured: false
+        #exclude_future: false
+        #exclude_past: false
+        #publication_type: ""
       # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
+      #offset: 0
+      ## Page order: descending (desc) or ascending (asc) date.
+      #order: desc
+    #design:
       # Choose a layout view
-      view: date-title-summary
+      #view: date-title-summary
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      #spacing:
+        #padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
