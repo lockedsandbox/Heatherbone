@@ -18,7 +18,7 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
+      buttons:
           text: Download CV
           url: /CV_Heather_Bone.pdf
       button:
@@ -37,7 +37,7 @@ sections:
             brightness: 0.6
           size: cover
           position: center
-          parallax: true
+          parallax: true               
   - block: markdown
     content:
       title: Research Overview
