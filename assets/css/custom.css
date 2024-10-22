@@ -1,111 +1,117 @@
 .header-container {
-    display: flex;
-    flex-direction: column; /* Arrange items in a column */
-    align-items: center; /* Center-align items horizontally */
-    text-align: center; /* Ensure text is centered */
-    padding-top: 5px;
-    padding-bottom: 5px;
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center-align items horizontally */
+  text-align: center; /* Ensure text is centered */
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .avatar {
-    width: 300px !important;
-    height: 300px !important;
-    width: auto;
-    height: auto;
-    border-radius: 50% !important;
-    margin: 0 auto 30px auto !important; /* Center the image and add space below it */
-    display: block; /* Ensure the image is treated as a block element */
+  width: 300px !important;
+  height: 300px !important;
+  width: auto;
+  height: auto;
+  border-radius: 50% !important;
+  margin: 0 auto 30px auto !important; /* Center the image and add space below it */
+  display: block; /* Ensure the image is treated as a block element */
 }
 
 .author-info {
-    margin-top: 20px !important; /* Add space above the text */
-    max-width: 80% !important; /* Restrict the width of the text for better layout */
-    text-align: center; /* Ensure text is centered */
+  margin-top: 20px !important; /* Add space above the text */
+  max-width: 80% !important; /* Restrict the width of the text for better layout */
+  text-align: center; /* Ensure text is centered */
 }
 
-.author-info h1, .author-info h2, .author-info h3 {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+.author-info h1,
+.author-info h2,
+.author-info h3 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .author-info p {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-    font-size: 0.8rem !important; /* Adjust the font size as needed */
-    color: white !important; /* Corrected from font-color */
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-size: 0.8rem !important; /* Adjust the font size as needed */
+  color: white !important; /* Corrected from font-color */
 }
 
 .resume-biography .bio-text {
-    padding-top: 0px; /* Set this to a smaller value or 0 to reduce space */
-    padding-bottom: 20px !important;
+  padding-top: 0px; /* Set this to a smaller value or 0 to reduce space */
+  padding-bottom: 20px !important;
 }
 
 .flex-auto.max-w-prose {
-    margin-top: 0; /* Reduces the top margin to zero */
+  margin-top: 0; /* Reduces the top margin to zero */
 }
 
 .flex-auto.max-w-prose .pt-2 {
-    padding-top: 0; /* Reduces the top padding to zero */
+  padding-top: 0; /* Reduces the top padding to zero */
 }
 
 .home-section-bg {
-    padding-top: 60px !important; /* Adjust the value as needed */ 
-    padding-bottom: 60px !important; /* Adjust the value as needed */
+  padding-top: 60px !important; /* Adjust the value as needed */
+  padding-bottom: 60px !important; /* Adjust the value as needed */
 }
 
 /* Ensure the parent container is a flexbox and centers its children */
 #profile {
-    display: flex;
-    flex-direction: column; /* Align items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically if needed */
-    text-align: center; /* Center text within the container */
-    margin-top: 70px
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically if needed */
+  text-align: center; /* Center text within the container */
+  margin-top: 70px;
 }
 
 /* Ensure the avatar is centered with no conflicting margins */
 .avatar-wrapper {
-    margin: 0; /* Remove any margins that might affect centering */
-    display: flex;
-    justify-content: center; /* Center the avatar horizontally */
-    align-items: center; /* Center the avatar vertically */
+  margin: 0; /* Remove any margins that might affect centering */
+  display: flex;
+  justify-content: center; /* Center the avatar horizontally */
+  align-items: center; /* Center the avatar vertically */
 }
 
 /* Center the name and other details below the avatar */
 .portrait-title {
-    text-align: center; /* Center the text directly under the avatar */
-    margin-top: 30px; /* Adjust the space between the avatar and the name */
+  text-align: center; /* Center the text directly under the avatar */
+  margin-top: 30px; /* Adjust the space between the avatar and the name */
 }
 
 .portrait-title .text-3xl,
 .portrait-title h3,
 .portrait-title div {
-    margin: 5px 0; /* Ensure consistent spacing between text elements */
-    text-align: center; /* Center-align each text element */
+  margin: 5px 0; /* Ensure consistent spacing between text elements */
+  text-align: center; /* Center-align each text element */
 }
 
 #section-resume-biography-3 {
-    padding-bottom: 60px !important; /* Adjust the value as needed */
+  padding-bottom: 60px !important; /* Adjust the value as needed */
 }
 
 .button-group {
-    display: inline-flex;
-    gap: 20px; /* Adjust spacing between the buttons */
+  display: inline-flex;
+  gap: 20px; /* Adjust spacing between the buttons */
 }
 
 button.btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    text-transform: uppercase;
-    background-color: #007bff; /* Style according to your theme */
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    border: none;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #007bff; /* Style according to your theme */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
 
 button.btn:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.leading-8, .tracking-tight {
+  color: #fff;
 }

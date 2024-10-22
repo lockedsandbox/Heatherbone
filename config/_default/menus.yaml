@@ -7,19 +7,21 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Research
-    url: research/
-    weight: 11
+  # - name: Research
+  #   url: research/
+  #   weight: 11
   - name: Teaching
     identifier: teaching
     url: teaching/
-    weight: 20
+    weight: 12
   - name: Teaching Overview
-    parent: teaching
+    # parent: teaching
     url: teaching/teaching-overview
+    weight: 13
   - name: Teaching Philosophy
-    parent: teaching
+    # parent: teaching
     url: teaching/teaching-philosophy
+    weight: 14
   - name: About
     url: experience/
-    weight: 40
+    weight: 20
