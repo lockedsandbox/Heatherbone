@@ -112,6 +112,74 @@ button.btn:hover {
   background-color: #0056b3; /* Darker shade on hover */
 }
 
-.leading-8, .tracking-tight {
+.leading-8,
+.tracking-tight {
   color: #fff;
+}
+
+.section-background {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  display: inline-block;
+}
+
+.section-background:after {
+  content: "";
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.section-background img {
+  object-position: 102% 25%;
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-page {
+  margin-top: -40px;
+}
+
+.about-me-text {
+  position: absolute;
+  bottom: 40px;
+  left: 10%;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  z-index: 9;
+}
+
+.blog-grid-wrapper {
+  padding: 50px 20px;
+}
+.blog-grid-wrapper h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.blog-grids {
+  display: flex;
+  gap: 25px;
+}
+.grid-item {
+  width: 33%;
+}
+
+.grid-img img {
+  border-radius: 8px;
+}
+.grid-content h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 15px 0;
 }

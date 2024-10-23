@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts | Heather Bone</title>
+    <link>http://localhost:1313/about/</link>
+      <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <description>Abouts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2024 10:53:12 +0530</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu12503906484819421811.png</url>
+      <title>Abouts</title>
+      <link>http://localhost:1313/about/</link>
+    </image>
+    
+    <item>
+      <title>About cddcd</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Wed, 23 Oct 2024 10:53:12 +0530</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-about-page&#34;&gt;Welcome to My About Page&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Nulla facilisi. Integer maximus augue quis nulla scelerisque, non tincidunt lacus vestibulum.&lt;/p&gt;
+&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
+&lt;p&gt;Donec scelerisque massa vitae vehicula placerat. Fusce ut sapien nulla. Vivamus luctus risus nec ante vulputate, quis varius justo feugiat.&lt;/p&gt;
+&lt;h2 id=&#34;our-history&#34;&gt;Our History&lt;/h2&gt;
+&lt;p&gt;Aliquam erat volutpat. Suspendisse potenti. Nunc congue egestas nibh in fermentum.&lt;/p&gt;
+&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;
+&lt;p&gt;For inquiries or collaborations, feel free to contact us via 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
