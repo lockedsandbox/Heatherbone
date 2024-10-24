@@ -1,0 +1,56 @@
+{{/* Hugo Blox: Biography 3 */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $author := $block.content.username | default "admin" }}
+
+{{ $person_page_path := (printf "/authors/%s" $author) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
+{{end}}
+{{ $person := $person_page.Params }}
+{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+
+
+
+<div class="about-page">
+    <div class="section-background">
+      
+      <img
+        alt=""
+        src="{{ $block.content.bannerImage }}"
+      />
+      <div class="section-background-overlay">
+        <h2 style="white-space: pre-wrap" class="about-me-text">About Me</h2>
+      </div>
+    </div>
+  
+    <div class="blog-grid-wrapper container mx-auto px-4">
+      <h3>Get to know me a little…</h3>
+      <div class="blog-grids">
+        {{ with $block.content.getToKnowList }}
+        {{ range sort . "title" }}
+           
+            <div class="grid-item">
+                <div class="grid-img">
+                    <img src="{{ .image }}" alt="{{ .title }}">
+                </div>
+                <div class="grid-content">
+                  <h4>{{ .title }}</h4>
+                  <p>
+                    {{ .description }}
+                  </p>
+                </div>
+              </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+

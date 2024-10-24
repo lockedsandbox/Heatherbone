@@ -183,3 +183,8 @@ button.btn:hover {
   text-transform: capitalize;
   margin: 15px 0;
 }
+
+
+.home-section.fullscreen, .fullscreen {
+  min-height: calc(100vh - 70px);
+}
