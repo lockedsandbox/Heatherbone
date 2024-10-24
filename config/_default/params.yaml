@@ -34,20 +34,23 @@ header:
     fixed_to_top: true
     show_search: false
     show_theme_chooser: false
+    highlight_active_link: true
     logo:
       text: "Heather Bone"
+      filename: "icon.png"
     button:
       url: "https://x.com/"
 
 # Site footer
-#footer:
-  #copyright:
-    #notice: '© {year} Heather Bone. This work is licensed under {license}'
-    #license:
-      #enable: false
-      #allow_derivatives: false
-      #share_alike: true
-      #allow_commercial: false
+footer:
+  copyright:
+    notice: '© {year} Heather Bone.'
+    license:
+      enable: false
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+      
 
 # Localization
 locale:

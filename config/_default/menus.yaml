@@ -18,10 +18,10 @@ main:
     # parent: teaching
     url: teaching/teaching-overview
     weight: 13
-  - name: Teaching Philosophy
-    # parent: teaching
-    url: teaching/teaching-philosophy
-    weight: 14
+  # - name: Teaching Philosophy
+  #   # parent: teaching
+  #   url: teaching/teaching-philosophy
+  #   weight: 14
   - name: About
     url: about/
     weight: 20

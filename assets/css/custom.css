@@ -188,3 +188,23 @@ button.btn:hover {
 .home-section.fullscreen, .fullscreen {
   min-height: calc(100vh - 70px);
 }
+
+.page-footer {
+  border-top: 1px solid #000;
+}
+.page-footer footer {
+  margin: 1rem auto;
+}
+a.nav-link.active {
+  color: #7E22CE;
+}
+.page-footer footer p:last-child {
+  display: none;
+}
+#teaching .hbb-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#teaching .leading-8, .tracking-tight {
+  color: #000;
+}
