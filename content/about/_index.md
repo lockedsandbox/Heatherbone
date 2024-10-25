@@ -10,7 +10,7 @@ design:
 sections:
   - block: about-page
     content:
-      bannerImage:  'hero-overview.JPG'
+      bannerImage:  'hero-overview.jpg'
       getToKnowList:
         travel:
             title: "I love travel"
