@@ -169,9 +169,10 @@ button.btn:hover {
 .blog-grids {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
 }
 .grid-item {
-  width: 33%;
+  flex: 2 1 250px;
 }
 
 .grid-img img {
@@ -184,27 +185,41 @@ button.btn:hover {
   margin: 15px 0;
 }
 
-
-.home-section.fullscreen, .fullscreen {
+.home-section.fullscreen,
+.fullscreen {
   min-height: calc(100vh - 70px);
 }
 
 .page-footer {
-  border-top: 1px solid #000;
+  border-top: 1px solid #e1e1e1;
 }
 .page-footer footer {
   margin: 1rem auto;
 }
 a.nav-link.active {
-  color: #7E22CE;
+  color: #7e22ce;
 }
 .page-footer footer p:last-child {
   display: none;
 }
-#teaching .hbb-section {
+#teaching.hbb-section {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-#teaching .leading-8, .tracking-tight {
+#teaching .leading-8,
+.tracking-tight {
   color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  #hi-im-heather {
+    margin-top: 0em;
+  }
+  .download-btn{
+    margin-bottom: 20px;
+  }
+  #teaching.hbb-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
