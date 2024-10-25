@@ -54,11 +54,11 @@
         <div class="text-3xl font-bold mb-2 mt-6">
           {{- if $person.name_pronunciation -}}
             <ruby>
-              <rb>{{ $person_page.Title }}</rb>
+              <h4>{{ $person_page.Title }}</h4>
               <rt>{{ $person.name_pronunciation }}</rt>
             </ruby>
           {{- else -}}
-            {{- $person_page.Title -}}
+            <h3>{{- $person_page.Title -}}</h3>
           {{- end -}}
         </div>
 
@@ -127,7 +127,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
       {{ with $person.interests }}
       <div class="">
-        <div class="section-subheading mb-3">{{ i18n "interests" | markdownify }}</div>
+        <div class="section-subheading mb-3"><h5>{{ i18n "interests" | markdownify }}</h5></div>
         <ul class="list-disc list-inside space-y-1 pl-5">
           {{ range . }}
           <li>
@@ -140,7 +140,7 @@
 
       {{ with $person.education }}
       <div class="">
-        <div class="section-subheading mb-3">{{ i18n "education" | markdownify }}</div>
+        <div class="section-subheading mb-3"><h5>{{ i18n "education" | markdownify }}</h5></div>
         <ul class="">
           {{ range . }}
           <li class="flex items-start gap-3">

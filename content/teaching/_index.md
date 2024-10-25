@@ -13,11 +13,17 @@ sections:
   - block: collection
     id: teaching
     content:
-      title: Teaching
+      title: <h3>Teaching</h3>
       filters:
         folders:
           - teaching
     design:
       view: article-grid
       columns: 2
+  - block: markdown  
+    content: 
+      text: |- 
+        <a class="get-research" href="teaching-overview/">Get to know my research</a> 
 ---
+
+# hhhh

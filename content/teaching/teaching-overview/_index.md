@@ -12,14 +12,15 @@ design:
 sections:
   - block: hero
     content:
-      title: "Teaching Overview"
-      subtitle: "Teaching Experience"
+      title: Teaching Overview
+      subtitle: <h3>Teaching Experience</h3>
       text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem"
     design:
       columns: '1'
+      css_class: "exmaple-class"
       background:
         image: 
-          filename: hero-overview.JPG
+          filename: hero-overview.jpg
           filters:
             brightness: 0.5
           parallax: false
@@ -28,7 +29,7 @@ sections:
           text_color_light: false
       spacing:
         padding: ['60px', '0', '60px', '0']
-      css_class: fullscreen 
+      css_class: fullscreen overview-page
       no_padding: true  
   - block: markdown
     id: section-1
@@ -50,7 +51,8 @@ sections:
   - block: markdown
     id: section-2
     content:
-      title: Teaching Certification
-      text: Add your Section 2 content here...
+      # title: Teaching Certification
+      text: |- 
+              <a class="get-research" href="conference-paper.pdf" download="conference-paper.pdf">download my teaching dossier</a> 
 ---
 
