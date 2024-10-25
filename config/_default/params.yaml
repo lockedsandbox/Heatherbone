@@ -44,7 +44,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Heather Bone.'
+    notice: '© {year} Heather Bone, All right reserved.'
     license:
       enable: false
       allow_derivatives: false
