@@ -20,7 +20,7 @@ sections:
       css_class: "exmaple-class"
       background:
         image: 
-          filename: hero-teaching-overview.jpg
+          filename: "hero-teaching-overview.jpg"
           filters:
             brightness: 0.5
           parallax: false
