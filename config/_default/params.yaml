@@ -37,14 +37,14 @@ header:
     highlight_active_link: true
     logo:
       text: "Heather Bone"
-      filename: "icon.png"
+      # filename: "icon.png"
     button:
       url: "https://x.com/"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Heather Bone, All right reserved.'
+    notice: '© {year} Heather Bone, All Rights Reserved.'
     license:
       enable: false
       allow_derivatives: false

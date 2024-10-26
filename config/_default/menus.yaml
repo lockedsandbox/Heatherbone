@@ -12,12 +12,12 @@ main:
   #   weight: 11
   - name: Teaching
     identifier: teaching
-    url: teaching/
+    url: teaching
     weight: 12
-  - name: Teaching Overview
-    # parent: teaching
-    url: teaching/teaching-overview
-    weight: 13
+  # - name: Teaching Overview
+  #   # parent: teaching
+  #   url: teaching/teaching-overview
+  #   weight: 13
   # - name: Teaching Philosophy
   #   # parent: teaching
   #   url: teaching/teaching-philosophy
