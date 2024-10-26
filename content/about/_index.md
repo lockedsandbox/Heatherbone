@@ -10,7 +10,7 @@ design:
 sections:
   - block: about-page
     content:
-      bannerImage:  'hero-teaching-overview.jpg'
+      bannerImage:  "hero-about-me.jpg"
       getToKnowList:
         travel:
             title: "I love travel"

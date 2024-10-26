@@ -119,7 +119,7 @@ button.btn:hover {
 
 .section-background {
   position: relative;
-  height: 60vh;
+  height: 70vh;
   width: 100%;
   display: inline-block;
 }
@@ -142,9 +142,9 @@ button.btn:hover {
   width: 100%;
   object-fit: cover;
 }
-.about-page {
+/* .about-page {
   margin-top: -40px;
-}
+} */
 
 .about-me-text {
   position: absolute;
