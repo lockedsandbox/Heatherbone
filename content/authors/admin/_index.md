@@ -121,4 +121,4 @@ skills:
 
 I'm an empirical microeconomist on the 2024-2025 job market. My current research focuses on the economics of illicit drug markets. 
 
-Learn more about my <a href="#section-markdown">research</a>, my teaching <a href="/teaching">experience</a> or just <a href="/about/">get to know me a little</a>. 
+Learn more about my <a href="#section-markdown">research</a>, my teaching <a href="teaching">experience</a> or just <a href="about/">get to know me a little</a>. 
